@@ -1,0 +1,63 @@
+
+
+.hero-container{
+background: url('/public/images/openinghr.jpeg')
+center center/cover no-repeat ;
+
+height: 100vh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+object-fit: contain;
+}
+
+.hero-container >h1 {
+    color: #ffff;
+    font-size: 100px;
+    margin-top: 50px;
+    }
+.hero-container >p {
+    color: #ffff;
+    font-size:32px;
+    margin-top: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    }
+.hero-btns{
+    margin-top: 20px;
+    
+}
+.hero-btns .btn{
+    margin: 6px;
+    border-radius: 10%;
+}
+.fa-play-circle{
+margin-left: 10px;
+}
+
+
+@media screen  and (max-width: 960px) {
+    .hero-container >h1 {
+        font-size: 70px;
+        margin-top: 20px;
+        }}
+@media screen and (max-width: 720px) {
+        .hero-container >h1{ 
+            font-size: 50px;
+            margin-top: 20px;
+            }
+        .hero-container >p {
+            font-size:40px;
+             }
+        .btn-mobile {
+            display: block;
+            text-decoration: none;
+        }
+        
+        .btn {
+            width: 100%;
+        }
+
+    }
